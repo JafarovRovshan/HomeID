@@ -1,0 +1,10 @@
+@import "common/variable";
+@import "common/mixin";
+@import "common/common";
+@import "common/header";
+@import "homepage/sliderSection.scss";
+@import "homepage/welcomeSection.scss";
+
+* {
+    font-family: $main-font;
+  }
