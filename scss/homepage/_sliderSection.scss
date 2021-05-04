@@ -6,6 +6,7 @@ main {
       background-position: center center;
       background-size: cover;
       min-height: 91vh;
+
       .card {
         position: relative;
         max-width: 470px;
@@ -20,10 +21,25 @@ main {
           span {
             margin: 0 15px;
           }
+          span i {
+            color: #d1a570;
+          }
         }
         .property-bottoms {
           display: flex;
           justify-content: space-between;
+          .status span {
+            background-color: #6cb6ac;
+            padding: 3px;
+            border-radius: 4px;
+            color: white;
+          }
+          .featured span {
+            background-color: #ff6935;
+            padding: 3px;
+            border-radius: 4px;
+            color: white;
+          }
         }
       }
     }
@@ -46,10 +62,25 @@ main {
           span {
             margin: 0 15px;
           }
+          span i {
+            color: #d1a570;
+          }
         }
         .property-bottoms {
           display: flex;
           justify-content: space-between;
+          .status span {
+            color: white;
+            background-color: #6cb6ac;
+            padding: 3px;
+            border-radius: 4px;
+          }
+          .featured span {
+            color: white;
+            background-color: #ff6935;
+            padding: 3px;
+            border-radius: 4px;
+          }
         }
       }
     }
@@ -72,10 +103,28 @@ main {
           span {
             margin: 0 15px;
           }
+          span i {
+            color: #d1a570;
+          }
         }
         .property-bottoms {
           display: flex;
           justify-content: space-between;
+          span {
+            color: white;
+          }
+          .status span {
+            background-color: #6178b6;
+            padding: 3px;
+            border-radius: 4px;
+            color: white;
+          }
+          .featured span {
+            background-color: #ff6935;
+            padding: 3px;
+            border-radius: 4px;
+            color: white;
+          }
         }
       }
     }

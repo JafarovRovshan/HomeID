@@ -1,4 +1,3 @@
-
 a {
   &:hover {
     text-decoration: none;
@@ -13,4 +12,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  max-width: 100%;
+  overflow-x: hidden;
 }

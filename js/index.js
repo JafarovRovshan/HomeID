@@ -18,7 +18,7 @@ $(document).ready(function () {
       },
     },
   });
-  
+
   $(".carousel-item").owlCarousel({
     loop: true,
     margin: 10,

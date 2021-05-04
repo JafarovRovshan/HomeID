@@ -2,9 +2,12 @@
 @import "common/mixin";
 @import "common/common";
 @import "common/header";
-@import "homepage/sliderSection.scss";
-@import "homepage/welcomeSection.scss";
+@import "homepage/sliderSection";
+@import "homepage/welcomeSection";
+@import "homepage/exploreSection";
+@import "homepage/latestSection"
 
-* {
-    font-family: $main-font;
-  }
+  // *{
+  //   font-family: $main-font;
+  // }
+

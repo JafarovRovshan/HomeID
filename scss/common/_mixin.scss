@@ -3,6 +3,11 @@
     @content;
   }
 }
+@mixin IPadTablet {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
 
 @mixin btn-default {
   background-color: $primary-cl;
